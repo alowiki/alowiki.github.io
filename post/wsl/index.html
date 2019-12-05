@@ -1,0 +1,269 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>wsl &gt; 小巧的 Linux 子系统，定制你的 Kali | E#xamp1e-A&#39;s blog</title>
+<meta name="description" content="想在冬天沉眠" />
+<link rel="shortcut icon" href="https://alowiki.github.io/favicon.ico?v=1575521880639">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://alowiki.github.io/styles/main.css">
+
+<script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?bd5096cf14554a4264219720448047b1";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138752887-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138752887-1');
+</script>
+
+
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://alowiki.github.io">
+  <img class="avatar" src="https://alowiki.github.io/images/avatar.png?v=1575521880639" alt="">
+  </a>
+  <h1 class="site-title">
+    E#xamp1e-A&#39;s blog
+  </h1>
+  <p class="site-description">
+    想在冬天沉眠
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/post/links" class="menu">
+          友链
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              wsl &gt; 小巧的 Linux 子系统，定制你的 Kali
+            </h2>
+            <div class="post-info">
+              <span>
+                2019-11-28
+              </span>
+              <span>
+                3 min read
+              </span>
+              
+                <a href="https://alowiki.github.io/tag/S7SbPl2zF" class="post-tag">
+                  # Windows
+                </a>
+              
+                <a href="https://alowiki.github.io/tag/1bFuloLSE" class="post-tag">
+                  # wsl
+                </a>
+              
+                <a href="https://alowiki.github.io/tag/TLt7D_DXb" class="post-tag">
+                  # 笔记
+                </a>
+              
+                <a href="https://alowiki.github.io/tag/RNulqHtgwa" class="post-tag">
+                  # Linux
+                </a>
+              
+                <a href="https://alowiki.github.io/tag/p6CG2lhdN4" class="post-tag">
+                  # Kali
+                </a>
+              
+            </div>
+            
+              <img class="post-feature-image" src="https://alowiki.github.io/post-images/wsl.png" alt="">
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>🌊 由于休假，好久没有更新过博客了<br>
+🔥 这次带来的是一篇关于 wsl 的基础使用文章<br>
+⁉️ 如果你的机器配置很低，但又需要 Linux 环境，不妨试试 wsl<br>
+♻️ docker 也是一个好选择，但本篇就以我平时用的 wsl 做介绍了（其实还是因为 wsl 好上手）<br>
+⚠️ 这次文章完全是凭靠经验，或许会出现很多不可避免的错误或者疏漏<br>
+🙂 所以，欢迎评论</p>
+<!-- more -->
+<h2 id="序关于-wsl">序：关于 wsl</h2>
+<p>        在日常的渗透工作中，Kali 是多数渗透工作者离不开的神奇之一。（不，只是我）<br>
+而我的电脑配置却又奇低，用虚拟机的话很吃力。因此，我一直在找能够解决这个问题的软件。起初，我遇到了 Pentestbox，它是一个集成了很多实用工具的 Linux 终端环境模拟器，并且拥有很强的扩展性。但由于它本身那庞大的体积和文件数量，想要在其他设备上安装也变得麻烦。在经过一段时间的上手体验后，我最后还是放弃了它。直到某天，我看到了关于 wsl 的介绍文章……</p>
+<p>        wsl 是微软和 Canonical 公司共同为 Windows 研发的一款软件，它的全称是 Windows Subsystem for Linux，更多信息可在百度百科中查阅。</p>
+<blockquote>
+<p>       <a href="https://baike.baidu.com/item/wsl/20359185?fr=aladdin">Windows Subsystem for Linux - 百度百科</a></p>
+</blockquote>
+<h2 id="话题之一安装-wsl">话题之一：安装 wsl</h2>
+<p>        wsl 内置在系统中，你可以在<code>控制面板-程序-程序和功能-启用或关闭 Windows 功能</code>中开启它，就像开启<code>Telnet</code>功能一样。<br>
+<img src="https://alowiki.github.io/post-images/start_wsl.png" alt="启用wsl"><br>
+        接下来，我们直接在应用商店中搜索需要的 Linux 发行版名称，这里以 Kali linux 为例。<br>
+<img src="https://alowiki.github.io/post-images/kali.png" alt="搜索kali"><br>
+        点击第一个，进入后见下图<br>
+<img src="https://alowiki.github.io/post-images/kali1.png" alt="安装kali"><br>
+        点击安装，如果需要登陆直接关闭登陆窗口，以继续下载。</p>
+<p>        安装完成后，系统会提示是否开启，由于我之前安装过了，没有保留截图。<br>
+我们可以直接在开始菜单里找到它：<br>
+<img src="https://alowiki.github.io/post-images/run_kali.png" alt="运行kali"><br>
+        等命令窗口出现后，会对子系统进行初始化，完成之后会像下图一样提示输入用户名密码等：<br>
+<img src="https://alowiki.github.io/post-images/adduser_kali.png" alt="创建用户"><br>
+        大功告成！获得 kali 子系统 *1<br>
+<img src="https://alowiki.github.io/post-images/know_kali.png" alt="完成"></p>
+<h2 id="话题之二配置你的子系统">话题之二：配置你的子系统</h2>
+<p>        这个 Kali 的镜像体积很小，也没有安装任何测试工具，它就仅仅是个系统环境而已。好在，配置 Linux 软件环境也不是什么难事，你只需要把平时常用的工具都塞进去就对了。</p>
+<h2 id="结语">结语</h2>
+<p>        关于配置这个 Kali 我真不想写太多，你只需要设置一下软件源再安装些基本应用就 ok 了。相信这对各位来说完全就是小菜一碟。（其实只是懒，下一篇或许会进行补充的）</p>
+<p><a href="http://music.163.com/song?id=25723360">网易云音乐: 明日になれば僕は - Lamp</a></p>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E5%BA%8F%E5%85%B3%E4%BA%8E-wsl">序：关于 wsl</a></li>
+<li><a href="#%E8%AF%9D%E9%A2%98%E4%B9%8B%E4%B8%80%E5%AE%89%E8%A3%85-wsl">话题之一：安装 wsl</a></li>
+<li><a href="#%E8%AF%9D%E9%A2%98%E4%B9%8B%E4%BA%8C%E9%85%8D%E7%BD%AE%E4%BD%A0%E7%9A%84%E5%AD%90%E7%B3%BB%E7%BB%9F">话题之二：配置你的子系统</a></li>
+<li><a href="#%E7%BB%93%E8%AF%AD">结语</a></li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://alowiki.github.io/post/examp1ea">
+              <h3 class="post-title">
+                简介
+              </h3>
+            </a>
+          </div>
+        
+
+        
+          
+
+          
+
+          
+            <script src='//cdn.jsdelivr.net/npm/valine/dist/Valine.min.js'></script>
+
+<div id="vcomments"></div>
+
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: 'zG8IO3eli3SJSUyES5KlYfWp-gzGzoHsz',
+        appKey: 'baL2oPJ61uRaLiGBpdNNYUpS',
+        notify:true,
+        verify:true,
+        avatar:'mp',
+        placeholder: '留下你的足迹~',
+        recordIP:true
+    });
+</script>
+
+          
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | &copy; 2019 E#xamp1e-A's Blog All Rights Reserved | 
+  <a class="rss" href="https://alowiki.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+
+  let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+  // This should probably be throttled.
+  // Especially because it triggers during smooth scrolling.
+  // https://lodash.com/docs/4.17.10#throttle
+  // You could do like...
+  // window.addEventListener("scroll", () => {
+  //    _.throttle(doThatStuff, 100);
+  // });
+  // Only not doing it here to keep this Pen dependency-free.
+
+  window.addEventListener("scroll", event => {
+    let fromTop = window.scrollY;
+
+    mainNavLinks.forEach((link, index) => {
+      let section = document.getElementById(decodeURI(link.hash).substring(1));
+      let nextSection = null
+      if (mainNavLinks[index + 1]) {
+        nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+      }
+      if (section.offsetTop <= fromTop) {
+        if (nextSection) {
+          if (nextSection.offsetTop > fromTop) {
+            link.classList.add("current");
+          } else {
+            link.classList.remove("current");    
+          }
+        } else {
+          link.classList.add("current");
+        }
+      } else {
+        link.classList.remove("current");
+      }
+    });
+  });
+
+</script>
+
+      </div>
+    </div>
+  </body>
+</html>

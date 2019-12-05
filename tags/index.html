@@ -1,0 +1,175 @@
+<html>
+  <head>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>E#xamp1e-A&#39;s blog</title>
+<meta name="description" content="想在冬天沉眠" />
+<link rel="shortcut icon" href="https://alowiki.github.io/favicon.ico?v=1575521880639">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://alowiki.github.io/styles/main.css">
+
+<script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?bd5096cf14554a4264219720448047b1";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138752887-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138752887-1');
+</script>
+
+
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://alowiki.github.io">
+  <img class="avatar" src="https://alowiki.github.io/images/avatar.png?v=1575521880639" alt="">
+  </a>
+  <h1 class="site-title">
+    E#xamp1e-A&#39;s blog
+  </h1>
+  <p class="site-description">
+    想在冬天沉眠
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/post/links" class="menu">
+          友链
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+
+        <div class="tags-container">
+          
+            <a class="tag" href="https://alowiki.github.io/tag/N3ApFzalE">Gitalk</a>
+          
+            <a class="tag" href="https://alowiki.github.io/tag/s8dVeafrVj">Valine</a>
+          
+            <a class="tag" href="https://alowiki.github.io/tag/uK4HMOuYJq">评论插件</a>
+          
+            <a class="tag" href="https://alowiki.github.io/tag/dYLR0J0bJ6">前端</a>
+          
+            <a class="tag" href="https://alowiki.github.io/tag/Aw0AhdXyA">Gridea</a>
+          
+            <a class="tag" href="https://alowiki.github.io/tag/TLt7D_DXb">笔记</a>
+          
+            <a class="tag" href="https://alowiki.github.io/tag/ne2wC6sV2">SoftEther</a>
+          
+            <a class="tag" href="https://alowiki.github.io/tag/bRCJ7TJ26O">VPN</a>
+          
+            <a class="tag" href="https://alowiki.github.io/tag/0TUdbrIbbD">JAPAN</a>
+          
+            <a class="tag" href="https://alowiki.github.io/tag/wbHXnS8drK">ICMP TUNNEL</a>
+          
+            <a class="tag" href="https://alowiki.github.io/tag/CxgKv5kpg6">DNS TUNNEL</a>
+          
+            <a class="tag" href="https://alowiki.github.io/tag/S7SbPl2zF">Windows</a>
+          
+            <a class="tag" href="https://alowiki.github.io/tag/1bFuloLSE">wsl</a>
+          
+            <a class="tag" href="https://alowiki.github.io/tag/RNulqHtgwa">Linux</a>
+          
+            <a class="tag" href="https://alowiki.github.io/tag/p6CG2lhdN4">Kali</a>
+          
+        </div>
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | &copy; 2019 E#xamp1e-A's Blog All Rights Reserved | 
+  <a class="rss" href="https://alowiki.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+
+  let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+  // This should probably be throttled.
+  // Especially because it triggers during smooth scrolling.
+  // https://lodash.com/docs/4.17.10#throttle
+  // You could do like...
+  // window.addEventListener("scroll", () => {
+  //    _.throttle(doThatStuff, 100);
+  // });
+  // Only not doing it here to keep this Pen dependency-free.
+
+  window.addEventListener("scroll", event => {
+    let fromTop = window.scrollY;
+
+    mainNavLinks.forEach((link, index) => {
+      let section = document.getElementById(decodeURI(link.hash).substring(1));
+      let nextSection = null
+      if (mainNavLinks[index + 1]) {
+        nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+      }
+      if (section.offsetTop <= fromTop) {
+        if (nextSection) {
+          if (nextSection.offsetTop > fromTop) {
+            link.classList.add("current");
+          } else {
+            link.classList.remove("current");    
+          }
+        } else {
+          link.classList.add("current");
+        }
+      } else {
+        link.classList.remove("current");
+      }
+    });
+  });
+
+</script>
+
+      </div>
+    </div>
+  </body>
+</html>
