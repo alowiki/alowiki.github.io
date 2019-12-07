@@ -4,10 +4,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>网络穿透 : 使用 SoftEther 绕过访问限制 | E#xamp1e-A&#39;s blog</title>
 <meta name="description" content="想在冬天沉眠" />
-<link rel="shortcut icon" href="http://localhost:4000/favicon.ico?v=1575706019535">
+<link rel="shortcut icon" href="https://alowiki.github.io/favicon.ico?v=1575709039373">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="http://localhost:4000/styles/main.css">
+<link rel="stylesheet" href="https://alowiki.github.io/styles/main.css">
 
 <script>
   var _hmt = _hmt || [];
@@ -37,8 +37,8 @@
     <div class="main">
       <div class="main-content">
         <div class="site-header">
-  <a href="http://localhost:4000">
-  <img class="avatar" src="http://localhost:4000/images/avatar.png?v=1575706019535" alt="">
+  <a href="https://alowiki.github.io">
+  <img class="avatar" src="https://alowiki.github.io/images/avatar.png?v=1575709039373" alt="">
   </a>
   <h1 class="site-title">
     E#xamp1e-A&#39;s blog
@@ -98,30 +98,26 @@
                 2019-11-30
               </span>
               <span>
-                1 min read
+                3 min read
               </span>
               
-                <a href="http://localhost:4000/tag/ne2wC6sV2" class="post-tag">
+                <a href="https://alowiki.github.io/tag/ne2wC6sV2" class="post-tag">
                   # SoftEther
                 </a>
               
-                <a href="http://localhost:4000/tag/bRCJ7TJ26O" class="post-tag">
-                  # VPN
-                </a>
-              
-                <a href="http://localhost:4000/tag/0TUdbrIbbD" class="post-tag">
+                <a href="https://alowiki.github.io/tag/0TUdbrIbbD" class="post-tag">
                   # JAPAN
                 </a>
               
-                <a href="http://localhost:4000/tag/wbHXnS8drK" class="post-tag">
+                <a href="https://alowiki.github.io/tag/wbHXnS8drK" class="post-tag">
                   # ICMP TUNNEL
                 </a>
               
-                <a href="http://localhost:4000/tag/CxgKv5kpg6" class="post-tag">
+                <a href="https://alowiki.github.io/tag/CxgKv5kpg6" class="post-tag">
                   # DNS TUNNEL
                 </a>
               
-                <a href="http://localhost:4000/tag/TLt7D_DXb" class="post-tag">
+                <a href="https://alowiki.github.io/tag/TLt7D_DXb" class="post-tag">
                   # 笔记
                 </a>
               
@@ -135,7 +131,28 @@
 <p>        校园网使用的是拨号上网，限制单个账户设备数量为 1台电脑/笔记本，2部手机。使用 MAC 地址欺骗无果，遂尝试 DNS 隧道 (ICMP 已被禁用)。<br>
 <span style="color: #000; font-size: 12px; background: #000;">虽然最近得知了检测原理为<strong>检测 QQ 客户端是否在线</strong>。简单的说，不登陆 QQ 就没事，但手机的数量限制仍然存在。</span></p>
 <h2 id="关于-softether">关于 SoftEther</h2>
-<p>        </p>
+<blockquote>
+<p>        SoftEther ***是一个由筑波大学研究生Daiyuu Nobori（登大游）因硕士论文而开发的开源、跨平台、多重协议的虚拟专用网方案，此方案让一些虚拟专用网协议像是SSL *** 、L2TP、IPsec、Open***以及微软SSTP都由同一个单一***服务器提供。在2014年1月4日以GNU通用公共授权条款的方式转变为开源软件。<br><br>
+        SoftEther ***是专门被设计为穿过防火墙的，支持NAT穿透，使其能越过(和谐)的防火墙，创建***通道。2013年3月，官方开始提供*** Gate公共***中继服务器列表插件，以简化(和谐)有突破(和谐)需求的用户的操作复杂程度。因为用了HTTPS来伪装连接，防火墙的深度数据包检测无法侦测到SoftEther的***发送数据包构成的***通道。但SoftEther的SSL ***协议在(和谐)的部分地区仍然被屏蔽。<br><br>
+        性能优化也是SoftEther ***的一个目标。它使用像是利用全部以太网帧的策略，减少了存储器复制的操作、平行传输和聚类，这减少了通常***连接会有的延迟并增加了运输吞吐量。<br></p>
+</blockquote>
+<p>        摘自 《<a href="https://zh.wikipedia.org">维基百科</a>》</p>
+<p>        概括的说，SoftEther 是款综合性的、实用的集成软件，并且具备了网络穿透、隐蔽功能。</p>
+<h2 id="获取-softether-软件">获取 SoftEther 软件</h2>
+<p>        目前，SoftEther 的项目<a href="https://www.softether.org/">官网</a>仍可进行正常访问。</p>
+<figure data-type="image" tabindex="1"><img src="https://alowiki.github.io/post-images/1575706918528.png" alt=""></figure>
+<p>        下载页面分别展示了几个下载站点，和源代码的获取方式。这里我选择第一个栏目进行演示，如果实际下载过程中无法正常下请自行更换。</p>
+<figure data-type="image" tabindex="2"><img src="https://alowiki.github.io/post-images/1575707233136.png" alt=""></figure>
+<p>        进入之后的界面是这样的：</p>
+<figure data-type="image" tabindex="3"><img src="https://alowiki.github.io/post-images/1575707384392.png" alt=""></figure>
+<h3 id="softether-服务端">SoftEther 服务端</h3>
+<figure data-type="image" tabindex="4"><img src="https://alowiki.github.io/post-images/1575707500239.png" alt=""></figure>
+<p>        根据需求选择，本文以 CentOS 7 x64 进行演示，故选择如下。</p>
+<figure data-type="image" tabindex="5"><img src="https://alowiki.github.io/post-images/1575707983693.png" alt=""></figure>
+<p>        这里我直接下载到电脑进行存档，需要的话请选择在服务器上使用<code>wget</code>或<code>git clone</code>进行获取。</p>
+<h3 id="softether-客户端">SoftEther 客户端</h3>
+<p>        客户端就简单了，首先在这里选择好需要下载的文件。</p>
+<figure data-type="image" tabindex="6"><img src="https://alowiki.github.io/post-images/1575708870070.png" alt=""></figure>
 <h2 id="在-centos-上部署-softether">在 CentOS 上部署 SoftEther</h2>
 <p>        </p>
 <h2 id="结语">结语</h2>
@@ -143,6 +160,12 @@
 <h2 id="声明">声明</h2>
 <p>        为了避免各种纠纷，特做如下说明，<br>
 本站仅以研究学习为目标进行文章发表，请勿用于非法用途。如自行使用，其责任概由使用者自行承担，与本站无关。</p>
+<h2 id="参考文献">参考文献</h2>
+<ul>
+<li><a href="https://zh.wikipedia.org/wiki/SoftEther_VPN">维基百科 - SoftEther *** 词条</a></li>
+<li><a href=""></a></li>
+</ul>
+<br>
 <p>定于 12 月 14 日前完成。</p>
 
               </div>
@@ -152,9 +175,16 @@
 <ul>
 <li><a href="#%E5%BA%8F">序</a></li>
 <li><a href="#%E5%85%B3%E4%BA%8E-softether">关于 SoftEther</a></li>
+<li><a href="#%E8%8E%B7%E5%8F%96-softether-%E8%BD%AF%E4%BB%B6">获取 SoftEther 软件</a>
+<ul>
+<li><a href="#softether-%E6%9C%8D%E5%8A%A1%E7%AB%AF">SoftEther 服务端</a></li>
+<li><a href="#softether-%E5%AE%A2%E6%88%B7%E7%AB%AF">SoftEther 客户端</a></li>
+</ul>
+</li>
 <li><a href="#%E5%9C%A8-centos-%E4%B8%8A%E9%83%A8%E7%BD%B2-softether">在 CentOS 上部署 SoftEther</a></li>
 <li><a href="#%E7%BB%93%E8%AF%AD">结语</a></li>
 <li><a href="#%E5%A3%B0%E6%98%8E">声明</a></li>
+<li><a href="#%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE">参考文献</a></li>
 </ul>
 </li>
 </ul>
@@ -167,7 +197,7 @@
         
           <div class="next-post">
             <div class="next">下一篇</div>
-            <a href="http://localhost:4000/post/wsl">
+            <a href="https://alowiki.github.io/post/wsl">
               <h3 class="post-title">
                 wsl &gt; 小巧的 Linux 子系统，定制你的 Kali
               </h3>
@@ -203,7 +233,7 @@
 
         <div class="site-footer">
   Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | &copy; 2019 E#xamp1e-A's Blog All Rights Reserved | 
-  <a class="rss" href="http://localhost:4000/atom.xml" target="_blank">RSS</a>
+  <a class="rss" href="https://alowiki.github.io/atom.xml" target="_blank">RSS</a>
 </div>
 
 <script>
