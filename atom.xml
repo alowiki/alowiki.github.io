@@ -1,19 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://alowiki.github.io</id>
+    <id>http://localhost:4000</id>
     <title>E#xamp1e-A&apos;s blog</title>
-    <updated>2019-12-05T05:02:06.758Z</updated>
+    <updated>2019-12-07T08:07:03.989Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://alowiki.github.io"/>
-    <link rel="self" href="https://alowiki.github.io/atom.xml"/>
+    <link rel="alternate" href="http://localhost:4000"/>
+    <link rel="self" href="http://localhost:4000/atom.xml"/>
     <subtitle>想在冬天沉眠</subtitle>
-    <logo>https://alowiki.github.io/images/avatar.png</logo>
-    <icon>https://alowiki.github.io/favicon.ico</icon>
+    <logo>http://localhost:4000/images/avatar.png</logo>
+    <icon>http://localhost:4000/favicon.ico</icon>
     <rights>All rights reserved 2019, E#xamp1e-A&apos;s blog</rights>
     <entry>
+        <title type="html"><![CDATA[Web 环境搭建]]></title>
+        <id>http://localhost:4000/post/HyNzpw1fQ</id>
+        <link href="http://localhost:4000/post/HyNzpw1fQ">
+        </link>
+        <updated>2019-12-07T07:39:25.000Z</updated>
+        <summary type="html"><![CDATA[<p>🙄 基础服务设施</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>🙄 基础服务设施</p>
+<!-- more -->
+<h2 id="预备知识">预备知识</h2>
+<h3 id="web-容器-前端后台">Web 容器 &amp; 前端后台</h3>
+<h3 id="基础环境-集成环境">基础环境 &amp; 集成环境</h3>
+<h3 id="lamp-lnmp">lamp &amp; lnmp</h3>
+<h2 id="集成环境的搭建实践">集成环境的搭建实践</h2>
+<h2 id="lamplnmp-的搭建实践">lamp/lnmp 的搭建实践</h2>
+<p>长期更新。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PHP 学习笔记]]></title>
+        <id>http://localhost:4000/post/hfGa0YkYj</id>
+        <link href="http://localhost:4000/post/hfGa0YkYj">
+        </link>
+        <updated>2019-12-04T05:54:33.000Z</updated>
+        <summary type="html"><![CDATA[<p>😌 希望来年能参赛</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>😌 希望来年能参赛</p>
+<!-- more  -->
+<blockquote>
+<p>        语法示例<br>
+<code>&lt;?php<br>
+    echo &quot;Hi! PHP!&quot;;<br>
+?&gt;<br>
+</code></p>
+</blockquote>
+<h2 id="php-的文件格式">PHP 的文件格式</h2>
+<p>        <code>.php</code>结尾，本质是文本文件。需要搭建 PHP 环境才可以使用。</p>
+<h2 id="变量">变量</h2>
+<h3 id="声明变量">声明变量</h3>
+<p>        <strong>PHP 是门弱类型语言，变量使用 &quot;$&quot; 符号加上变量名字进行声明，示例：</strong></p>
+<p>        <code>$name = x;</code></p>
+<h2 id="变量-2">变量</h2>
+<h3 id="声明变量-2">声明变量</h3>
+<p>        <strong>PHP 是门弱类型语言，变量使用 &quot;$&quot; 符号加上变量名字进行声明，示例：</strong></p>
+<p>        <code>$name = x;</code></p>
+<h3 id="变量的作用域">变量的作用域</h3>
+<p>长期更新。</p>
+<p><a href="http://music.163.com/song?id=34928479">网易云音乐: 忘れものは、ない？ - 豆屋</a></p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[将你的 Gitalk 替换成 Valine]]></title>
-        <id>https://alowiki.github.io/post/jiang-ni-de-gitlak-ti-huan-cheng-valine</id>
-        <link href="https://alowiki.github.io/post/jiang-ni-de-gitlak-ti-huan-cheng-valine">
+        <id>http://localhost:4000/post/jiang-ni-de-gitlak-ti-huan-cheng-valine</id>
+        <link href="http://localhost:4000/post/jiang-ni-de-gitlak-ti-huan-cheng-valine">
         </link>
         <updated>2019-12-04T05:30:42.000Z</updated>
         <summary type="html"><![CDATA[<p>😏 方便，友好，简洁的评论插件<br>
@@ -48,38 +99,38 @@
 <h2 id="在-gridea-上添加-valine">在 Gridea 上添加 Valine</h2>
 <p>        Gridea 默认只自带了 Gitalk 和 Disqus，所以在不修改程序代码的情况下只有手动添加了。在那之前，请先打开 <strong>Valine</strong> 的<a href="https://valine.js.org/">官方网站</a>，结合着本篇笔记和官网中的内容进行编辑。 ( 为了避免本篇内容过期 )</p>
 <h3 id="注册并认证-leancloud-账号">注册并认证 LeanCloud 账号</h3>
-<figure data-type="image" tabindex="1"><img src="https://alowiki.github.io/post-images/1575472471274.png" alt=""></figure>
+<figure data-type="image" tabindex="1"><img src="http://localhost:4000/post-images/1575472471274.png" alt=""></figure>
 <p>        需要注意的是，在 <strong>LeanCloud</strong> 的<a href="https://www.leancloud.cn">官方网站</a>上注册后，<strong>需要实名认证才可以创建应用</strong>。<br>
         此外，<strong>LeanCloud</strong> 有一个推荐奖励计划，如果可以的话，还请多多支持。</p>
-<figure data-type="image" tabindex="2"><img src="https://alowiki.github.io/post-images/1575472445374.png" alt=""></figure>
+<figure data-type="image" tabindex="2"><img src="http://localhost:4000/post-images/1575472445374.png" alt=""></figure>
 <p>        <a href="https://leancloud.cn/?source=2FLM9UF3">推广链接 : LeanCloud, 请在这个链接中注册账户</a></p>
 <h3 id="在控制台中创建一个新的应用">在控制台中创建一个新的应用</h3>
-<p><img src="https://alowiki.github.io/post-images/1575472433298.png" alt=""><br>
+<p><img src="http://localhost:4000/post-images/1575472433298.png" alt=""><br>
         接下来，你将看到如下界面，然后跟着图中的标识进行操作即可。<br>
-<img src="https://alowiki.github.io/post-images/1575472842083.png" alt=""><br>
-<img src="https://alowiki.github.io/post-images/1575472917265.png" alt=""><br>
-<img src="https://alowiki.github.io/post-images/1575472923914.png" alt=""></p>
+<img src="http://localhost:4000/post-images/1575472842083.png" alt=""><br>
+<img src="http://localhost:4000/post-images/1575472917265.png" alt=""><br>
+<img src="http://localhost:4000/post-images/1575472923914.png" alt=""></p>
 <p>        <strong>LeanCloud</strong> 还有很多功能有待探索，至于设置，如有需求，还请自行探索。</p>
 <h3 id="手动创建-valine-模板">手动创建 Valine 模板</h3>
 <p>        在创建模板文件之前，还请了解下主题文件的目录结构，本篇文章的方法并不只是局限于 <strong>Gridea</strong>。<br>
-<img src="https://alowiki.github.io/post-images/1575474832162.png" alt=""><br>
+<img src="http://localhost:4000/post-images/1575474832162.png" alt=""><br>
 除了截图上的两个文件，还有<code>C:\Users\YourName\Documents\Gridea\config\setting.json</code>也是需要修改的。</p>
 <p>        <strong>Gridea</strong> 默认的文档存储路径是<code>C:\Users\YourName\Documents\Gridea\</code>，找到后进入主题的存储文件夹 <code>themes\name</code>，这里以 <code>Notes</code>为例。<br>
-<img src="https://alowiki.github.io/post-images/1575475797274.png" alt=""></p>
+<img src="http://localhost:4000/post-images/1575475797274.png" alt=""></p>
 <p>        首先创建<code>Valine.ejs</code>，复制 <strong>Valine</strong> 官网中<a href="https://valine.js.org/quickstart.html">快速开始页</a>的 <strong>HTML 片段</strong> 代码：<br>
-<img src="https://alowiki.github.io/post-images/1575476048550.png" alt=""></p>
+<img src="http://localhost:4000/post-images/1575476048550.png" alt=""></p>
 <p>        替换掉原来js文件来源地址，参数可视自身情况修改。<br>
-<img src="https://alowiki.github.io/post-images/1575476069839.png" alt=""></p>
+<img src="http://localhost:4000/post-images/1575476069839.png" alt=""></p>
 <p>        这里 appId 和 appKey 两条重要参数我使用了变量进行定义，如果后期没有修改需求可直接填入。( 或许可以定制一下我的 Girdea，但是我懒得很，就不说了 )</p>
 <p>        这一步完成，接下来是编辑<code>post.ejs</code>模板。我们需要在里面增加 <strong>Valine</strong> 模块。<br>
-<img src="https://alowiki.github.io/post-images/1575476605396.png" alt=""></p>
+<img src="http://localhost:4000/post-images/1575476605396.png" alt=""></p>
 <blockquote>
 <p>       &lt;% if (commentSetting.commentPlatform === 'valine') { %&gt;<br>
          &lt;%- include('./includes/valine') %&gt;<br>
        &lt;% } %&gt;</p>
 </blockquote>
 <p>        此处也是同理，为了方便后期能够灵活配置。在接下来需要编辑<code>setting.json</code>文件来完成评论系统的安装。<br>
-<img src="https://alowiki.github.io/post-images/1575521791285.png" alt=""></p>
+<img src="http://localhost:4000/post-images/1575521791285.png" alt=""></p>
 <blockquote>
 <p>       &quot;valineSetting&quot;: {<br>
            &quot;apiId&quot;: &quot;&quot;,<br>
@@ -95,9 +146,9 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[网络穿透 : 使用 SoftEther VPN 绕过访问限制]]></title>
-        <id>https://alowiki.github.io/post/softether-greater-shi-yong-icmpdns-tunnel-chuan-guo-fang-huo-qiang</id>
-        <link href="https://alowiki.github.io/post/softether-greater-shi-yong-icmpdns-tunnel-chuan-guo-fang-huo-qiang">
+        <title type="html"><![CDATA[网络穿透 : 使用 SoftEther 绕过访问限制]]></title>
+        <id>http://localhost:4000/post/softether-greater-shi-yong-icmpdns-tunnel-chuan-guo-fang-huo-qiang</id>
+        <link href="http://localhost:4000/post/softether-greater-shi-yong-icmpdns-tunnel-chuan-guo-fang-huo-qiang">
         </link>
         <updated>2019-11-30T03:35:23.000Z</updated>
         <summary type="html"><![CDATA[<p>🙃 本站仅以研究学习为目标进行文章发表，请勿用于非法用途</p>
@@ -105,7 +156,8 @@
         <content type="html"><![CDATA[<p>🙃 本站仅以研究学习为目标进行文章发表，请勿用于非法用途</p>
 <!-- more -->
 <h2 id="序">序</h2>
-<p>        </p>
+<p>        校园网使用的是拨号上网，限制单个账户设备数量为 1台电脑/笔记本，2部手机。使用 MAC 地址欺骗无果，遂尝试 DNS 隧道 (ICMP 已被禁用)。<br>
+<span style="color: #000; font-size: 12px; background: #000;">虽然最近得知了检测原理为<strong>检测 QQ 客户端是否在线</strong>。简单的说，不登陆 QQ 就没事，但手机的数量限制仍然存在。</span></p>
 <h2 id="关于-softether">关于 SoftEther</h2>
 <p>        </p>
 <h2 id="在-centos-上部署-softether">在 CentOS 上部署 SoftEther</h2>
@@ -120,8 +172,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[wsl > 小巧的 Linux 子系统，定制你的 Kali]]></title>
-        <id>https://alowiki.github.io/post/wsl</id>
-        <link href="https://alowiki.github.io/post/wsl">
+        <id>http://localhost:4000/post/wsl</id>
+        <link href="http://localhost:4000/post/wsl">
         </link>
         <updated>2019-11-28T07:15:18.000Z</updated>
         <summary type="html"><![CDATA[<p>🌊 由于休假，好久没有更新过博客了<br>
@@ -147,19 +199,19 @@
 </blockquote>
 <h2 id="话题之一安装-wsl">话题之一：安装 wsl</h2>
 <p>        wsl 内置在系统中，你可以在<code>控制面板-程序-程序和功能-启用或关闭 Windows 功能</code>中开启它，就像开启<code>Telnet</code>功能一样。<br>
-<img src="https://alowiki.github.io/post-images/start_wsl.png" alt="启用wsl"><br>
+<img src="http://localhost:4000/post-images/start_wsl.png" alt="启用wsl"><br>
         接下来，我们直接在应用商店中搜索需要的 Linux 发行版名称，这里以 Kali linux 为例。<br>
-<img src="https://alowiki.github.io/post-images/kali.png" alt="搜索kali"><br>
+<img src="http://localhost:4000/post-images/kali.png" alt="搜索kali"><br>
         点击第一个，进入后见下图<br>
-<img src="https://alowiki.github.io/post-images/kali1.png" alt="安装kali"><br>
+<img src="http://localhost:4000/post-images/kali1.png" alt="安装kali"><br>
         点击安装，如果需要登陆直接关闭登陆窗口，以继续下载。</p>
 <p>        安装完成后，系统会提示是否开启，由于我之前安装过了，没有保留截图。<br>
 我们可以直接在开始菜单里找到它：<br>
-<img src="https://alowiki.github.io/post-images/run_kali.png" alt="运行kali"><br>
+<img src="http://localhost:4000/post-images/run_kali.png" alt="运行kali"><br>
         等命令窗口出现后，会对子系统进行初始化，完成之后会像下图一样提示输入用户名密码等：<br>
-<img src="https://alowiki.github.io/post-images/adduser_kali.png" alt="创建用户"><br>
+<img src="http://localhost:4000/post-images/adduser_kali.png" alt="创建用户"><br>
         大功告成！获得 kali 子系统 *1<br>
-<img src="https://alowiki.github.io/post-images/know_kali.png" alt="完成"></p>
+<img src="http://localhost:4000/post-images/know_kali.png" alt="完成"></p>
 <h2 id="话题之二配置你的子系统">话题之二：配置你的子系统</h2>
 <p>        这个 Kali 的镜像体积很小，也没有安装任何测试工具，它就仅仅是个系统环境而已。好在，配置 Linux 软件环境也不是什么难事，你只需要把平时常用的工具都塞进去就对了。</p>
 <h2 id="结语">结语</h2>
@@ -169,8 +221,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[简介]]></title>
-        <id>https://alowiki.github.io/post/examp1ea</id>
-        <link href="https://alowiki.github.io/post/examp1ea">
+        <id>http://localhost:4000/post/examp1ea</id>
+        <link href="http://localhost:4000/post/examp1ea">
         </link>
         <updated>2019-10-19T07:34:05.000Z</updated>
         <summary type="html"><![CDATA[<p>👾 欢迎到来 <strong>E#xample-A</strong> 的博客。<br>
@@ -189,8 +241,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[站点更新日志]]></title>
-        <id>https://alowiki.github.io/post/logs</id>
-        <link href="https://alowiki.github.io/post/logs">
+        <id>http://localhost:4000/post/logs</id>
+        <link href="http://localhost:4000/post/logs">
         </link>
         <updated>2019-10-01T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>📆 本页持续更新<br>
@@ -219,14 +271,14 @@
 </ol>
 <h2 id="todo">TODO</h2>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1103319"><label class="task-list-item-label" for="task-item-1103319"> 定制主题</label>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3350971"><label class="task-list-item-label" for="task-item-3350971"> 定制主题</label>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1212412"><label class="task-list-item-label" for="task-item-1212412"> 替换评论插件</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6868655"><label class="task-list-item-label" for="task-item-6868655"> 编写载入页、导航页、着落页</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8734481"><label class="task-list-item-label" for="task-item-8734481"> 修改文章页样式</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8601246"><label class="task-list-item-label" for="task-item-8601246"> 修改页面、文字适配</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5953956"><label class="task-list-item-label" for="task-item-5953956"> 编写 “留言板” 页面，延续采用 Valine</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6004073"><label class="task-list-item-label" for="task-item-6004073"> 编写博客隐藏模式，用于区分技术博文和生活博文</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2816603"><label class="task-list-item-label" for="task-item-2816603"> 替换评论插件</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2113303"><label class="task-list-item-label" for="task-item-2113303"> 编写载入页、导航页、着落页</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2300926"><label class="task-list-item-label" for="task-item-2300926"> 修改文章页样式</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7104764"><label class="task-list-item-label" for="task-item-7104764"> 修改页面、文字适配</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8572489"><label class="task-list-item-label" for="task-item-8572489"> 编写 “留言板” 页面，延续采用 Valine</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4487358"><label class="task-list-item-label" for="task-item-4487358"> 编写博客隐藏模式，用于区分技术博文和生活博文</label></li>
 </ul>
 </li>
 </ul>
