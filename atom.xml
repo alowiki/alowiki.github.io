@@ -2,35 +2,59 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://alowiki.github.io</id>
     <title>E#xamp1e-A&apos;s blog</title>
-    <updated>2019-12-07T09:11:26.065Z</updated>
+    <updated>2019-12-13T18:14:30.812Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://alowiki.github.io"/>
     <link rel="self" href="https://alowiki.github.io/atom.xml"/>
-    <subtitle>想在冬天沉眠</subtitle>
+    <subtitle>归墟</subtitle>
     <logo>https://alowiki.github.io/images/avatar.png</logo>
     <icon>https://alowiki.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, E#xamp1e-A&apos;s blog</rights>
     <entry>
-        <title type="html"><![CDATA[Web 环境搭建]]></title>
+        <title type="html"><![CDATA[咕咕咕咕]]></title>
+        <id>https://alowiki.github.io/post/_MPZwmRfq</id>
+        <link href="https://alowiki.github.io/post/_MPZwmRfq">
+        </link>
+        <updated>2019-12-13T17:28:37.000Z</updated>
+        <summary type="html"><![CDATA[<p>咕咕复咕咕</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>咕咕复咕咕</p>
+<!-- more -->
+<h2 id="序">序</h2>
+<p>        </p>
+<h2 id="关于博客">关于博客</h2>
+<p>        </p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[知识图谱整理 : CentOS 7.x 的部署与安全防护]]></title>
+        <id>https://alowiki.github.io/post/szu4n7QNP</id>
+        <link href="https://alowiki.github.io/post/szu4n7QNP">
+        </link>
+        <updated>2019-12-09T07:43:54.000Z</updated>
+        <summary type="html"><![CDATA[<p>暂时搁置<br>
+😏 Linux 即是正义，仰慕 Mac OS X 的心永不变。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>暂时搁置<br>
+😏 Linux 即是正义，仰慕 Mac OS X 的心永不变。</p>
+<!-- more -->
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[知识图谱整理 : 隐私保护&调查取证基础]]></title>
         <id>https://alowiki.github.io/post/HyNzpw1fQ</id>
         <link href="https://alowiki.github.io/post/HyNzpw1fQ">
         </link>
         <updated>2019-12-07T07:39:25.000Z</updated>
-        <summary type="html"><![CDATA[<p>🙄 基础服务设施</p>
+        <summary type="html"><![CDATA[<p>🙄 暂时搁置</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>🙄 基础服务设施</p>
+        <content type="html"><![CDATA[<p>🙄 暂时搁置</p>
 <!-- more -->
-<h2 id="预备知识">预备知识</h2>
-<h3 id="web-容器-前端后台">Web 容器 &amp; 前端后台</h3>
-<h3 id="基础环境-集成环境">基础环境 &amp; 集成环境</h3>
-<h3 id="lamp-lnmp">lamp &amp; lnmp</h3>
-<h2 id="集成环境的搭建实践">集成环境的搭建实践</h2>
-<h2 id="lamplnmp-的搭建实践">lamp/lnmp 的搭建实践</h2>
 <p>长期更新。</p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[PHP 学习笔记]]></title>
+        <title type="html"><![CDATA[知识图谱整理 : 渗透测试中不得不提的几款工具]]></title>
         <id>https://alowiki.github.io/post/hfGa0YkYj</id>
         <link href="https://alowiki.github.io/post/hfGa0YkYj">
         </link>
@@ -39,30 +63,32 @@
 ]]></summary>
         <content type="html"><![CDATA[<p>😌 希望来年能参赛</p>
 <!-- more  -->
-<blockquote>
-<p>        语法示例<br>
-<code>&lt;?php<br>
-    echo &quot;Hi! PHP!&quot;;<br>
-?&gt;<br>
-</code></p>
-</blockquote>
-<h2 id="php-的文件格式">PHP 的文件格式</h2>
-<p>        <code>.php</code>结尾，本质是文本文件。需要搭建 PHP 环境才可以使用。</p>
-<h2 id="变量">变量</h2>
-<h3 id="声明变量">声明变量</h3>
-<p>        <strong>PHP 是门弱类型语言，变量使用 &quot;$&quot; 符号加上变量名字进行声明，示例：</strong></p>
-<p>        <code>$name = x;</code></p>
-<h2 id="变量-2">变量</h2>
-<h3 id="声明变量-2">声明变量</h3>
-<p>        <strong>PHP 是门弱类型语言，变量使用 &quot;$&quot; 符号加上变量名字进行声明，示例：</strong></p>
-<p>        <code>$name = x;</code></p>
-<h3 id="变量的作用域">变量的作用域</h3>
-<p>长期更新。</p>
+<h2 id="序">序</h2>
+<p>        本文是关于《渗透测试实践指南：必知必会的工具与方法》一书的读书笔记及部分摘要，属不完整的个人笔记，仅提供少量参考价值。</p>
+<h2 id="关于这本书">关于这本书</h2>
+<p>        十一月初在学校图书馆借出的基本书籍之一，于归还日期前一天晚上续借，并在 2019年 12月 13日看完，阅读花费时长约三天夜间时间 ( 熬夜看的 )。</p>
+<h2 id="本书结构">本书结构</h2>
+<p>        是非常传统的商业化渗透测试流程，不过多研究，仅提供几个基础而重要的渗透流程。</p>
+<ul>
+<li>信息收集</li>
+<li>扫描</li>
+<li>漏洞利用</li>
+<li>后渗透</li>
+</ul>
+<h2 id="信息收集域名与网络信息">信息收集：域名与网络信息</h2>
+<p>        待续</p>
+<h2 id="扫描和端口探测主机与服务信息">扫描和端口探测：主机与服务信息</h2>
+<p>        待续</p>
+<h2 id="漏洞利用暴力破解与-0day">漏洞利用：暴力破解与 0day</h2>
+<p>        待续</p>
+<h2 id="后渗透权限提升维持与内网漫游">后渗透：权限提升/维持与内网漫游</h2>
+<p>        待续</p>
+<br>
 <p><a href="http://music.163.com/song?id=34928479">网易云音乐: 忘れものは、ない？ - 豆屋</a></p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[将你的 Gitalk 替换成 Valine]]></title>
+        <title type="html"><![CDATA[换上新插件 : Valine !]]></title>
         <id>https://alowiki.github.io/post/jiang-ni-de-gitlak-ti-huan-cheng-valine</id>
         <link href="https://alowiki.github.io/post/jiang-ni-de-gitlak-ti-huan-cheng-valine">
         </link>
@@ -74,7 +100,7 @@
 ✂️ 多图预警</p>
 <!-- more -->
 <h2 id="序">序</h2>
-<p>        开设这个站点也快有三个月了，此前一直用的是 Gridea 自带支持的 Gitalk 。( Disqus 需要科学连接才能正常使用 )<br>
+<p>        开设这个站点也快有三个月了，此前一直用的是 Gridea 自带支持的 Gitalk 。( Disqus 需要科学连接才能使用 )<br>
         虽然它用起来挺不错，也有回复提醒。但由于它使用 Github 仓库作为数据库进行存储，需要一个 GitHub 账户也是理所当然的。而需要特意注册一个账户来进行留言想必也很麻烦吧。( 虽然暂时还不会有人评论就是了... )<br>
         为了解决这个问题，最好的办法就是替换一个<strong>不需要账号</strong>进行操作的评论系统。在选用本文的主角 <strong>Valine</strong> 之前，我也曾想过畅言、来必力之类的评论系统，不过直到最后也没有对这两款评论系统进行测试。( <strong>Valine</strong> 是我偶然在一位博主的博客中发现的 )<br>
         就是这样，这是一篇实践笔记。如果有什么疏漏或者错误的地方，请在评论中提出。</p>
@@ -151,7 +177,7 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[网络穿透 : 使用 SoftEther 绕过访问限制]]></title>
+        <title type="html"><![CDATA[网络穿透 : 使用 SoftEther VPN 绕过访问限制]]></title>
         <id>https://alowiki.github.io/post/softether-greater-shi-yong-icmpdns-tunnel-chuan-guo-fang-huo-qiang</id>
         <link href="https://alowiki.github.io/post/softether-greater-shi-yong-icmpdns-tunnel-chuan-guo-fang-huo-qiang">
         </link>
@@ -165,41 +191,43 @@
 <span style="color: #000; font-size: 12px; background: #000;">虽然最近得知了检测原理为<strong>检测 QQ 客户端是否在线</strong>。简单的说，不登陆 QQ 就没事，但手机的数量限制仍然存在。</span></p>
 <h2 id="关于-softether">关于 SoftEther</h2>
 <blockquote>
-<p>        SoftEther ***是一个由筑波大学研究生Daiyuu Nobori（登大游）因硕士论文而开发的开源、跨平台、多重协议的虚拟专用网方案，此方案让一些虚拟专用网协议像是SSL *** 、L2TP、IPsec、Open***以及微软SSTP都由同一个单一***服务器提供。在2014年1月4日以GNU通用公共授权条款的方式转变为开源软件。<br><br>
-        SoftEther ***是专门被设计为穿过防火墙的，支持NAT穿透，使其能越过(和谐)的防火墙，创建***通道。2013年3月，官方开始提供*** Gate公共***中继服务器列表插件，以简化(和谐)有突破(和谐)需求的用户的操作复杂程度。因为用了HTTPS来伪装连接，防火墙的深度数据包检测无法侦测到SoftEther的***发送数据包构成的***通道。但SoftEther的SSL ***协议在(和谐)的部分地区仍然被屏蔽。<br><br>
-        性能优化也是SoftEther ***的一个目标。它使用像是利用全部以太网帧的策略，减少了存储器复制的操作、平行传输和聚类，这减少了通常***连接会有的延迟并增加了运输吞吐量。<br></p>
+<p>        SoftEther VPN是一个由筑波大学研究生Daiyuu Nobori（登大游）因硕士论文而开发的开源、跨平台、多重协议的虚拟专用网方案，此方案让一些虚拟专用网协议像是 SSL VPN 、L2TP、IPsec、Open VPN 以及微软 SSTP 都由同一个单一 VPN 服务器提供。在 2014年 1月 4日以 GNU 通用公共授权条款的方式转变为开源软件。<br><br>
+        SoftEther VPN 是专门被设计为穿过防火墙的，支持NAT穿透，使其能越过防火墙，创建 VPN 通道。2013年3月，官方开始提供 VPN Gate 公共 VPN 中继服务器列表插件，以简化对 “番茄” 有突破需求的用户的操作复杂程度。因为用了 HTTPS 来伪装连接，防火墙的深度数据包检测无法侦测到 SoftEther VPN 的发送数据包构成的私有隧道。不过 SoftEther 的 SSL VPN 协议在(和谐)的部分地区仍然被屏蔽。<br><br>
+        性能优化也是 SoftEther VPN 的一个目标。它使用像是利用全部以太网帧的策略，减少了存储器复制的操作、平行传输和聚类，这减少了通常VPN连接会有的延迟并增加了运输吞吐量。<br></p>
 </blockquote>
 <p>        摘自 《<a href="https://zh.wikipedia.org">维基百科</a>》</p>
-<p>        概括的说，SoftEther 是款综合性的、实用的集成软件，并且具备了网络穿透、隐蔽功能。</p>
-<h2 id="获取-softether-软件">获取 SoftEther 软件</h2>
-<p>        目前，SoftEther 的项目<a href="https://www.softether.org/">官网</a>仍可进行正常访问。</p>
+<p>        概括的说，SoftEther VPN 是款综合性的、实用的集成软件，并且具备了网络穿透、隐蔽功能。</p>
+<h2 id="获取-softether-vpn">获取 SoftEther VPN</h2>
+<p>        目前，SoftEther VPN 的项目<a href="https://www.softether.org/">官网</a>仍可进行正常访问。</p>
 <figure data-type="image" tabindex="1"><img src="https://alowiki.github.io/post-images/1575706918528.png" alt=""></figure>
 <p>        下载页面分别展示了几个下载站点，和源代码的获取方式。这里我选择第一个栏目进行演示，如果实际下载过程中无法正常下请自行更换。</p>
 <figure data-type="image" tabindex="2"><img src="https://alowiki.github.io/post-images/1575707233136.png" alt=""></figure>
 <p>        进入之后的界面是这样的：</p>
 <figure data-type="image" tabindex="3"><img src="https://alowiki.github.io/post-images/1575707384392.png" alt=""></figure>
-<h3 id="softether-服务端">SoftEther 服务端</h3>
+<h3 id="softether-vpn-服务端">SoftEther VPN 服务端</h3>
 <figure data-type="image" tabindex="4"><img src="https://alowiki.github.io/post-images/1575707500239.png" alt=""></figure>
 <p>        根据需求选择，本文以 CentOS 7 x64 进行演示，故选择如下。</p>
 <figure data-type="image" tabindex="5"><img src="https://alowiki.github.io/post-images/1575707983693.png" alt=""></figure>
 <p>        这里我直接下载到电脑进行存档，需要的话请选择在服务器上使用<code>wget</code>或<code>git clone</code>进行获取。</p>
-<h3 id="softether-客户端">SoftEther 客户端</h3>
+<h3 id="softether-vpn-客户端">SoftEther VPN 客户端</h3>
 <p>        客户端就简单了，首先在这里选择好需要下载的文件。</p>
 <figure data-type="image" tabindex="6"><img src="https://alowiki.github.io/post-images/1575708870070.png" alt=""></figure>
-<h2 id="在-centos-上部署-softether">在 CentOS 上部署 SoftEther</h2>
-<p>        </p>
+<h2 id="在-centos-上部署-softether-vpn">在 CentOS 上部署 SoftEther VPN</h2>
+<p>        待续</p>
+<h2 id="在客户端配置-softether-vpn">在客户端配置 SoftEther VPN</h2>
+<p>        待续</p>
+<h2 id="使用-open-vpn-或其他方式连接">使用 Open VPN 或其他方式连接</h2>
+<p>        待续</p>
 <h2 id="结语">结语</h2>
-<p>        </p>
-<h2 id="声明">声明</h2>
 <p>        为了避免各种纠纷，特做如下说明，<br>
 本站仅以研究学习为目标进行文章发表，请勿用于非法用途。如自行使用，其责任概由使用者自行承担，与本站无关。</p>
 <h2 id="参考文献">参考文献</h2>
 <ul>
-<li><a href="https://zh.wikipedia.org/wiki/SoftEther_VPN">维基百科 - SoftEther *** 词条</a></li>
-<li><a href=""></a></li>
+<li><a href="https://zh.wikipedia.org/wiki/SoftEther_VPN">维基百科 - SoftEther VPN 词条</a></li>
+<li><a href="x">x</a></li>
 </ul>
 <br>
-<p>定于 12 月 14 日前完成。</p>
+<p><a href="http://music.163.com/song?id=411921938">网易云音乐 : Petal Fall - spire</a></p>
 ]]></content>
     </entry>
     <entry>
@@ -209,19 +237,16 @@
         </link>
         <updated>2019-11-28T07:15:18.000Z</updated>
         <summary type="html"><![CDATA[<p>🌊 由于休假，好久没有更新过博客了<br>
-🔥 这次带来的是一篇关于 wsl 的基础使用文章<br>
-⁉️ 如果你的机器配置很低，但又需要 Linux 环境，不妨试试 wsl<br>
-♻️ docker 也是一个好选择，但本篇就以我平时用的 wsl 做介绍了（其实还是因为 wsl 好上手）<br>
 ⚠️ 这次文章完全是凭靠经验，或许会出现很多不可避免的错误或者疏漏<br>
 🙂 所以，欢迎评论</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>🌊 由于休假，好久没有更新过博客了<br>
-🔥 这次带来的是一篇关于 wsl 的基础使用文章<br>
-⁉️ 如果你的机器配置很低，但又需要 Linux 环境，不妨试试 wsl<br>
-♻️ docker 也是一个好选择，但本篇就以我平时用的 wsl 做介绍了（其实还是因为 wsl 好上手）<br>
 ⚠️ 这次文章完全是凭靠经验，或许会出现很多不可避免的错误或者疏漏<br>
 🙂 所以，欢迎评论</p>
 <!-- more -->
+<p>🔥 这次带来的是一篇关于 wsl 的基础使用文章<br>
+⁉️ 如果你的机器配置很低，但又需要 Linux 环境，不妨试试 wsl<br>
+♻️ docker 也是一个好选择，但本篇就以我平时用的 wsl 做介绍了（其实还是因为 wsl 好上手）</p>
 <h2 id="序关于-wsl">序：关于 wsl</h2>
 <p>        在日常的渗透工作中，Kali 是多数渗透工作者离不开的神奇之一。（不，只是我）<br>
 而我的电脑配置却又奇低，用虚拟机的话很吃力。因此，我一直在找能够解决这个问题的软件。起初，我遇到了 Pentestbox，它是一个集成了很多实用工具的 Linux 终端环境模拟器，并且拥有很强的扩展性。但由于它本身那庞大的体积和文件数量，想要在其他设备上安装也变得麻烦。在经过一段时间的上手体验后，我最后还是放弃了它。直到某天，我看到了关于 wsl 的介绍文章……</p>
@@ -250,6 +275,24 @@
 <p>        关于配置这个 Kali 我真不想写太多，你只需要设置一下软件源再安装些基本应用就 ok 了。相信这对各位来说完全就是小菜一碟。（其实只是懒，下一篇或许会进行补充的）</p>
 <br>
 <p><a href="http://music.163.com/song?id=25723360">网易云音乐: 明日になれば僕は - Lamp</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[短记]]></title>
+        <id>https://alowiki.github.io/post/kai-keng-guan-yu-wo-de-zhuan-gong-fang-xiang</id>
+        <link href="https://alowiki.github.io/post/kai-keng-guan-yu-wo-de-zhuan-gong-fang-xiang">
+        </link>
+        <updated>2019-10-20T11:21:34.000Z</updated>
+        <summary type="html"><![CDATA[<p>😟 与时间博弈，试图斩断过多的负面感情。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>😟 与时间博弈，试图斩断过多的负面感情。</p>
+<!-- more -->
+<h2 id="序">序</h2>
+<p>        来到这所学校也快四个月了，曾经拒绝使用的花呗也成为了<strong>资金周转</strong>的重要一环。</p>
+<h2 id="自我认知">自我认知</h2>
+<p>        是咸鱼，过着梦想和幻想参杂着的人生，对于现实却无能为力。遇到困难喜欢缄口不言，尽管想把最大的善意献给世界......</p>
+<p>(未完待续)</p>
+<p><a href="http://music.163.com/song?id=1405903996">网易云音乐: 異人たちの時間 - 楠木ともり</a></p>
 ]]></content>
     </entry>
     <entry>
@@ -305,14 +348,14 @@
 </ol>
 <h2 id="todo">TODO</h2>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-929015"><label class="task-list-item-label" for="task-item-929015"> 定制主题</label>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7151377"><label class="task-list-item-label" for="task-item-7151377"> 定制主题</label>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1734920"><label class="task-list-item-label" for="task-item-1734920"> 替换评论插件</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7090364"><label class="task-list-item-label" for="task-item-7090364"> 编写载入页、导航页、着落页</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-725503"><label class="task-list-item-label" for="task-item-725503"> 修改文章页样式</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2121232"><label class="task-list-item-label" for="task-item-2121232"> 修改页面、文字适配</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9216016"><label class="task-list-item-label" for="task-item-9216016"> 编写 “留言板” 页面，延续采用 Valine</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5840081"><label class="task-list-item-label" for="task-item-5840081"> 编写博客隐藏模式，用于区分技术博文和生活博文</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4474432"><label class="task-list-item-label" for="task-item-4474432"> 替换评论插件</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4836322"><label class="task-list-item-label" for="task-item-4836322"> 编写载入页、导航页、着落页</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4126750"><label class="task-list-item-label" for="task-item-4126750"> 修改文章页样式</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7538515"><label class="task-list-item-label" for="task-item-7538515"> 修改页面、文字适配</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9623362"><label class="task-list-item-label" for="task-item-9623362"> 编写 “留言板” 页面，延续采用 Valine</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5188829"><label class="task-list-item-label" for="task-item-5188829"> 编写博客隐藏模式，用于区分技术博文和生活博文</label></li>
 </ul>
 </li>
 </ul>
@@ -322,7 +365,7 @@
 <li>执行文章周更计划</li>
 <li>友链交换推广</li>
 </ul>
-<h2 id="留言板">留言板</h2>
+<h2 id="临时留言板">临时留言板</h2>
 <blockquote>
 <p>        记 2019/12/3<br>
             今日气温骤降，早上起来的时候都感觉要感冒了。<br>
@@ -332,6 +375,10 @@
 <p>        记 2019/12/4<br>
             制定了博客发展计划，也是为了督促自己尽早完成学业。<br>
             修改了模板代码，将 Gitlak 换成了 Valine，再顺势记录一下。</p>
+</blockquote>
+<h2 id="曾用签名">曾用签名</h2>
+<blockquote>
+<p>        想在冬天沉眠</p>
 </blockquote>
 ]]></content>
     </entry>
