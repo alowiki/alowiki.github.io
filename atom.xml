@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://alowiki.github.io</id>
     <title>E#xamp1e-A&apos;s blog</title>
-    <updated>2019-12-13T18:35:14.692Z</updated>
+    <updated>2019-12-20T15:52:20.342Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://alowiki.github.io"/>
     <link rel="self" href="https://alowiki.github.io/atom.xml"/>
@@ -11,33 +11,32 @@
     <icon>https://alowiki.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, E#xamp1e-A&apos;s blog</rights>
     <entry>
-        <title type="html"><![CDATA[咕咕咕咕 : 博客平台迁移预告]]></title>
-        <id>https://alowiki.github.io/post/_MPZwmRfq</id>
-        <link href="https://alowiki.github.io/post/_MPZwmRfq">
-        </link>
-        <updated>2019-12-13T17:28:37.000Z</updated>
-        <summary type="html"><![CDATA[<p>咕咕复咕咕</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>咕咕复咕咕</p>
-<!-- more -->
-<h2 id="序">序</h2>
-<p>        </p>
-<h2 id="关于博客">关于博客</h2>
-<p>        </p>
-]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[知识图谱整理 : CentOS 7.x 的部署与安全防护]]></title>
         <id>https://alowiki.github.io/post/szu4n7QNP</id>
         <link href="https://alowiki.github.io/post/szu4n7QNP">
         </link>
         <updated>2019-12-09T07:43:54.000Z</updated>
-        <summary type="html"><![CDATA[<p>暂时搁置<br>
-😏 Linux 即是正义，仰慕 Mac OS X 的心永不变。</p>
+        <summary type="html"><![CDATA[<p>😏 Linux 即是正义，仰慕 Mac OS X 的心永不变。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>暂时搁置<br>
-😏 Linux 即是正义，仰慕 Mac OS X 的心永不变。</p>
+        <content type="html"><![CDATA[<p>😏 Linux 即是正义，仰慕 Mac OS X 的心永不变。</p>
 <!-- more -->
+<h2 id="序">序</h2>
+<h2 id="基础配置">基础配置</h2>
+<h3 id="创建用户">创建用户</h3>
+<p>[root@host\ ~]$ useradd -m username<br>
+[root@host\ ~]$ passwd username<br>
+[root@host\ ~]$ usermod -aG wheel username<br>
+[root@host\ ~]$ su username</p>
+<h3 id="配置-openssh">配置 OpenSSH</h3>
+<p>[username@host\ ~]$ rpm -qa | grep ssh<br>
+[username@host\ ~]$ sudo systemctl status sshd<br>
+[username@host\ ~]$ sudo vim /etc/ssh/sshd_config<br>
+Port 22<br>
+Protocol 2<br>
+PermitRootLogin no<br>
+PasswordAuthentication yes</p>
+<h3 id="openssh-安全设置">OpenSSH 安全设置</h3>
+<h3 id="日志管理系统">日志管理系统</h3>
 ]]></content>
     </entry>
     <entry>
@@ -350,17 +349,22 @@
 </ol>
 <h2 id="todo">TODO</h2>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2664223"><label class="task-list-item-label" for="task-item-2664223"> 定制主题</label>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7942749"><label class="task-list-item-label" for="task-item-7942749"> 定制主题</label>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3104065"><label class="task-list-item-label" for="task-item-3104065"> 替换评论插件</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8889536"><label class="task-list-item-label" for="task-item-8889536"> 编写载入页、导航页、着落页</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1956270"><label class="task-list-item-label" for="task-item-1956270"> 修改文章页样式</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9957816"><label class="task-list-item-label" for="task-item-9957816"> 修改页面、文字适配</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9417890"><label class="task-list-item-label" for="task-item-9417890"> 编写 “留言板” 页面，延续采用 Valine</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7318545"><label class="task-list-item-label" for="task-item-7318545"> 编写博客隐藏模式，用于区分技术博文和生活博文</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5924689"><label class="task-list-item-label" for="task-item-5924689"> 评论插件</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7898897"><label class="task-list-item-label" for="task-item-7898897"> 首页样式</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7915722"><label class="task-list-item-label" for="task-item-7915722"> 载入页</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8999910"><label class="task-list-item-label" for="task-item-8999910"> 导航页</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9066201"><label class="task-list-item-label" for="task-item-9066201"> 个人简历页</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8425591"><label class="task-list-item-label" for="task-item-8425591"> 项目展示页</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7055372"><label class="task-list-item-label" for="task-item-7055372">  “留言板” 页面</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-944535"><label class="task-list-item-label" for="task-item-944535"> 开设生活/技术分区</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2801951"><label class="task-list-item-label" for="task-item-2801951"> 为页面增加内置播放器</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1136000"><label class="task-list-item-label" for="task-item-1136000"> 文章置顶功能</label></li>
 </ul>
 </li>
 </ul>
+<p>        <em>( 上述计划可能会因博客平台迁移有所改变 )</em></p>
 <h2 id="计划目标">计划目标</h2>
 <ul>
 <li>博客主页完善</li>
