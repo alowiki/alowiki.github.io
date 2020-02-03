@@ -2,90 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://alowiki.github.io</id>
     <title>E#xamp1e-A&apos;s blog</title>
-    <updated>2019-12-20T15:52:20.342Z</updated>
+    <updated>2020-02-03T15:33:12.575Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://alowiki.github.io"/>
     <link rel="self" href="https://alowiki.github.io/atom.xml"/>
     <subtitle>归墟</subtitle>
     <logo>https://alowiki.github.io/images/avatar.png</logo>
     <icon>https://alowiki.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2019, E#xamp1e-A&apos;s blog</rights>
-    <entry>
-        <title type="html"><![CDATA[知识图谱整理 : CentOS 7.x 的部署与安全防护]]></title>
-        <id>https://alowiki.github.io/post/szu4n7QNP</id>
-        <link href="https://alowiki.github.io/post/szu4n7QNP">
-        </link>
-        <updated>2019-12-09T07:43:54.000Z</updated>
-        <summary type="html"><![CDATA[<p>😏 Linux 即是正义，仰慕 Mac OS X 的心永不变。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>😏 Linux 即是正义，仰慕 Mac OS X 的心永不变。</p>
-<!-- more -->
-<h2 id="序">序</h2>
-<h2 id="基础配置">基础配置</h2>
-<h3 id="创建用户">创建用户</h3>
-<p>[root@host\ ~]$ useradd -m username<br>
-[root@host\ ~]$ passwd username<br>
-[root@host\ ~]$ usermod -aG wheel username<br>
-[root@host\ ~]$ su username</p>
-<h3 id="配置-openssh">配置 OpenSSH</h3>
-<p>[username@host\ ~]$ rpm -qa | grep ssh<br>
-[username@host\ ~]$ sudo systemctl status sshd<br>
-[username@host\ ~]$ sudo vim /etc/ssh/sshd_config<br>
-Port 22<br>
-Protocol 2<br>
-PermitRootLogin no<br>
-PasswordAuthentication yes</p>
-<h3 id="openssh-安全设置">OpenSSH 安全设置</h3>
-<h3 id="日志管理系统">日志管理系统</h3>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[知识图谱整理 : 隐私保护&调查取证基础]]></title>
-        <id>https://alowiki.github.io/post/HyNzpw1fQ</id>
-        <link href="https://alowiki.github.io/post/HyNzpw1fQ">
-        </link>
-        <updated>2019-12-07T07:39:25.000Z</updated>
-        <summary type="html"><![CDATA[<p>🙄 暂时搁置</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>🙄 暂时搁置</p>
-<!-- more -->
-<p>长期更新。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[知识图谱整理 : 渗透测试中不得不提的几款工具]]></title>
-        <id>https://alowiki.github.io/post/hfGa0YkYj</id>
-        <link href="https://alowiki.github.io/post/hfGa0YkYj">
-        </link>
-        <updated>2019-12-04T05:54:33.000Z</updated>
-        <summary type="html"><![CDATA[<p>😌 希望来年能参赛</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>😌 希望来年能参赛</p>
-<!-- more  -->
-<h2 id="序">序</h2>
-<p>        本文是关于《渗透测试实践指南：必知必会的工具与方法》一书的读书笔记及部分摘要，属不完整的个人笔记，仅提供少量参考价值。</p>
-<h2 id="关于这本书">关于这本书</h2>
-<p>        十一月初在学校图书馆借出的基本书籍之一，于归还日期前一天晚上续借，并在 2019年 12月 13日看完，阅读花费时长约三天夜间时间 ( 熬夜看的 )。</p>
-<h2 id="本书结构">本书结构</h2>
-<p>        是非常传统的商业化渗透测试流程，不过多研究，仅提供几个基础而重要的渗透流程。</p>
-<ul>
-<li>信息收集</li>
-<li>扫描</li>
-<li>漏洞利用</li>
-<li>后渗透</li>
-</ul>
-<h2 id="信息收集域名与网络信息">信息收集：域名与网络信息</h2>
-<p>        待续</p>
-<h2 id="扫描和端口探测主机与服务信息">扫描和端口探测：主机与服务信息</h2>
-<p>        待续</p>
-<h2 id="漏洞利用暴力破解与-0day">漏洞利用：暴力破解与 0day</h2>
-<p>        待续</p>
-<h2 id="后渗透权限提升维持与内网漫游">后渗透：权限提升/维持与内网漫游</h2>
-<p>        待续</p>
-<br>
-<p><a href="http://music.163.com/song?id=34928479">网易云音乐: 忘れものは、ない？ - 豆屋</a></p>
-]]></content>
-    </entry>
+    <rights>All rights reserved 2020, E#xamp1e-A&apos;s blog</rights>
     <entry>
         <title type="html"><![CDATA[换上新插件 : 更为便捷的 Valine !]]></title>
         <id>https://alowiki.github.io/post/jiang-ni-de-gitlak-ti-huan-cheng-valine</id>
@@ -124,38 +48,38 @@ PasswordAuthentication yes</p>
 <h2 id="在-gridea-上添加-valine">在 Gridea 上添加 Valine</h2>
 <p>        Gridea 默认只自带了 Gitalk 和 Disqus，所以在不修改程序代码的情况下只有手动添加了。在那之前，请先打开 <strong>Valine</strong> 的<a href="https://valine.js.org">官方网站</a>，结合着本篇笔记和官网中的内容进行编辑。 ( 为了避免本篇内容过期 )</p>
 <h3 id="注册并认证-leancloud-账号">注册并认证 LeanCloud 账号</h3>
-<figure data-type="image" tabindex="1"><img src="https://alowiki.github.io/post-images/1575472471274.png" alt=""></figure>
+<figure data-type="image" tabindex="1"><img src="https://alowiki.github.io/post-images/1575472471274.png" alt="" loading="lazy"></figure>
 <p>        需要注意的是，在 <strong>LeanCloud</strong> 的<a href="https://www.leancloud.cn">官方网站</a>上注册后，<strong>需要实名认证才可以创建应用</strong>。<br>
         此外，<strong>LeanCloud</strong> 有一个推荐奖励计划，如果可以的话，还请多多支持。</p>
-<figure data-type="image" tabindex="2"><img src="https://alowiki.github.io/post-images/1575472445374.png" alt=""></figure>
+<figure data-type="image" tabindex="2"><img src="https://alowiki.github.io/post-images/1575472445374.png" alt="" loading="lazy"></figure>
 <p>        <a href="https://leancloud.cn/?source=2FLM9UF3">推广链接 : LeanCloud, 请在这个链接中注册账户</a></p>
 <h3 id="在控制台中创建一个新的应用">在控制台中创建一个新的应用</h3>
-<p><img src="https://alowiki.github.io/post-images/1575472433298.png" alt=""><br>
+<p><img src="https://alowiki.github.io/post-images/1575472433298.png" alt="" loading="lazy"><br>
         接下来，你将看到如下界面，然后跟着图中的标识进行操作即可。<br>
-<img src="https://alowiki.github.io/post-images/1575472842083.png" alt=""><br>
-<img src="https://alowiki.github.io/post-images/1575472917265.png" alt=""><br>
-<img src="https://alowiki.github.io/post-images/1575472923914.png" alt=""></p>
+<img src="https://alowiki.github.io/post-images/1575472842083.png" alt="" loading="lazy"><br>
+<img src="https://alowiki.github.io/post-images/1575472917265.png" alt="" loading="lazy"><br>
+<img src="https://alowiki.github.io/post-images/1575472923914.png" alt="" loading="lazy"></p>
 <p>        <strong>LeanCloud</strong> 还有很多功能有待探索，至于设置，如有需求，还请自行探索。</p>
 <h3 id="手动创建-valine-模板">手动创建 Valine 模板</h3>
 <p>        在创建模板文件之前，还请了解下主题文件的目录结构，本篇文章的方法并不只是局限于 <strong>Gridea</strong>。<br>
-<img src="https://alowiki.github.io/post-images/1575474832162.png" alt=""><br>
+<img src="https://alowiki.github.io/post-images/1575474832162.png" alt="" loading="lazy"><br>
 除了截图上的两个文件，还有<code>C:\Users\YourName\Documents\Gridea\config\setting.json</code>也是需要修改的。</p>
 <p>        <strong>Gridea</strong> 默认的文档存储路径是<code>C:\Users\YourName\Documents\Gridea\</code>，找到后进入主题的存储文件夹 <code>themes\name</code>，这里以 <code>Notes</code>为例。<br>
-<img src="https://alowiki.github.io/post-images/1575475797274.png" alt=""></p>
+<img src="https://alowiki.github.io/post-images/1575475797274.png" alt="" loading="lazy"></p>
 <p>        首先创建<code>Valine.ejs</code>，复制 <strong>Valine</strong> 官网中<a href="https://valine.js.org/quickstart.html">快速开始页</a>的 <strong>HTML 片段</strong> 代码：<br>
-<img src="https://alowiki.github.io/post-images/1575476048550.png" alt=""></p>
+<img src="https://alowiki.github.io/post-images/1575476048550.png" alt="" loading="lazy"></p>
 <p>        替换掉原来js文件来源地址，参数可视自身情况修改。<br>
-<img src="https://alowiki.github.io/post-images/1575476069839.png" alt=""></p>
+<img src="https://alowiki.github.io/post-images/1575476069839.png" alt="" loading="lazy"></p>
 <p>        这里 appId 和 appKey 两条重要参数我使用了变量进行定义，如果后期没有修改需求可直接填入。( 或许可以定制一下我的 Girdea，但是我懒得很，就不说了 )</p>
 <p>        这一步完成，接下来是编辑<code>post.ejs</code>模板。我们需要在里面增加 <strong>Valine</strong> 模块。<br>
-<img src="https://alowiki.github.io/post-images/1575476605396.png" alt=""></p>
+<img src="https://alowiki.github.io/post-images/1575476605396.png" alt="" loading="lazy"></p>
 <blockquote>
 <p>       &lt;% if (commentSetting.commentPlatform === 'valine') { %&gt;<br>
          &lt;%- include('./includes/valine') %&gt;<br>
        &lt;% } %&gt;</p>
 </blockquote>
 <p>        此处也是同理，为了方便后期能够灵活配置。在接下来需要编辑<code>setting.json</code>文件来完成评论系统的安装。<br>
-<img src="https://alowiki.github.io/post-images/1575521791285.png" alt=""></p>
+<img src="https://alowiki.github.io/post-images/1575521791285.png" alt="" loading="lazy"></p>
 <blockquote>
 <p>       &quot;valineSetting&quot;: {<br>
            &quot;apiId&quot;: &quot;&quot;,<br>
@@ -198,19 +122,19 @@ PasswordAuthentication yes</p>
 <p>        概括的说，SoftEther VPN 是款综合性的、实用的集成软件，并且具备了网络穿透、隐蔽功能。</p>
 <h2 id="获取-softether-vpn">获取 SoftEther VPN</h2>
 <p>        目前，SoftEther VPN 的项目<a href="https://www.softether.org/">官网</a>仍可进行正常访问。</p>
-<figure data-type="image" tabindex="1"><img src="https://alowiki.github.io/post-images/1575706918528.png" alt=""></figure>
+<figure data-type="image" tabindex="1"><img src="https://alowiki.github.io/post-images/1575706918528.png" alt="" loading="lazy"></figure>
 <p>        下载页面分别展示了几个下载站点，和源代码的获取方式。这里我选择第一个栏目进行演示，如果实际下载过程中无法正常下请自行更换。</p>
-<figure data-type="image" tabindex="2"><img src="https://alowiki.github.io/post-images/1575707233136.png" alt=""></figure>
+<figure data-type="image" tabindex="2"><img src="https://alowiki.github.io/post-images/1575707233136.png" alt="" loading="lazy"></figure>
 <p>        进入之后的界面是这样的：</p>
-<figure data-type="image" tabindex="3"><img src="https://alowiki.github.io/post-images/1575707384392.png" alt=""></figure>
+<figure data-type="image" tabindex="3"><img src="https://alowiki.github.io/post-images/1575707384392.png" alt="" loading="lazy"></figure>
 <h3 id="softether-vpn-服务端">SoftEther VPN 服务端</h3>
-<figure data-type="image" tabindex="4"><img src="https://alowiki.github.io/post-images/1575707500239.png" alt=""></figure>
+<figure data-type="image" tabindex="4"><img src="https://alowiki.github.io/post-images/1575707500239.png" alt="" loading="lazy"></figure>
 <p>        根据需求选择，本文以 CentOS 7 x64 进行演示，故选择如下。</p>
-<figure data-type="image" tabindex="5"><img src="https://alowiki.github.io/post-images/1575707983693.png" alt=""></figure>
+<figure data-type="image" tabindex="5"><img src="https://alowiki.github.io/post-images/1575707983693.png" alt="" loading="lazy"></figure>
 <p>        这里我直接下载到电脑进行存档，需要的话请选择在服务器上使用<code>wget</code>或<code>git clone</code>进行获取。</p>
 <h3 id="softether-vpn-客户端">SoftEther VPN 客户端</h3>
 <p>        客户端就简单了，首先在这里选择好需要下载的文件。</p>
-<figure data-type="image" tabindex="6"><img src="https://alowiki.github.io/post-images/1575708870070.png" alt=""></figure>
+<figure data-type="image" tabindex="6"><img src="https://alowiki.github.io/post-images/1575708870070.png" alt="" loading="lazy"></figure>
 <h2 id="在-centos-上部署-softether-vpn">在 CentOS 上部署 SoftEther VPN</h2>
 <p>        待续</p>
 <h2 id="在客户端配置-softether-vpn">在客户端配置 SoftEther VPN</h2>
@@ -255,19 +179,19 @@ PasswordAuthentication yes</p>
 </blockquote>
 <h2 id="话题之一安装-wsl">话题之一：安装 wsl</h2>
 <p>        wsl 内置在系统中，你可以在<code>控制面板-程序-程序和功能-启用或关闭 Windows 功能</code>中开启它，就像开启<code>Telnet</code>功能一样。<br>
-<img src="https://alowiki.github.io/post-images/start_wsl.png" alt="启用wsl"><br>
+<img src="https://alowiki.github.io/post-images/start_wsl.png" alt="启用wsl" loading="lazy"><br>
         接下来，我们直接在应用商店中搜索需要的 Linux 发行版名称，这里以 Kali linux 为例。<br>
-<img src="https://alowiki.github.io/post-images/kali.png" alt="搜索kali"><br>
+<img src="https://alowiki.github.io/post-images/kali.png" alt="搜索kali" loading="lazy"><br>
         点击第一个，进入后见下图<br>
-<img src="https://alowiki.github.io/post-images/kali1.png" alt="安装kali"><br>
+<img src="https://alowiki.github.io/post-images/kali1.png" alt="安装kali" loading="lazy"><br>
         点击安装，如果需要登陆直接关闭登陆窗口，以继续下载。</p>
 <p>        安装完成后，系统会提示是否开启，由于我之前安装过了，没有保留截图。<br>
 我们可以直接在开始菜单里找到它：<br>
-<img src="https://alowiki.github.io/post-images/run_kali.png" alt="运行kali"><br>
+<img src="https://alowiki.github.io/post-images/run_kali.png" alt="运行kali" loading="lazy"><br>
         等命令窗口出现后，会对子系统进行初始化，完成之后会像下图一样提示输入用户名密码等：<br>
-<img src="https://alowiki.github.io/post-images/adduser_kali.png" alt="创建用户"><br>
+<img src="https://alowiki.github.io/post-images/adduser_kali.png" alt="创建用户" loading="lazy"><br>
         大功告成！获得 kali 子系统 *1<br>
-<img src="https://alowiki.github.io/post-images/know_kali.png" alt="完成"></p>
+<img src="https://alowiki.github.io/post-images/know_kali.png" alt="完成" loading="lazy"></p>
 <h2 id="话题之二配置-kali">话题之二：配置 Kali</h2>
 <p>        这个 Kali 的镜像体积很小，也没有安装任何测试工具，它就仅仅是个系统环境而已。好在，配置 Linux 软件环境也不是什么难事，你只需要把平时常用的工具都塞进去就对了。</p>
 <h2 id="结语">结语</h2>
@@ -331,6 +255,8 @@ PasswordAuthentication yes</p>
 😆 趁此机会把博客完善了一下</p>
 <p>💡 <a href="https://www.pixiv.net/artworks/74556279">Pixiv ID: 74556279_p0</a></p>
 <!-- more -->
+<h2 id="迁移公示">迁移公示</h2>
+<p>        暂停更新，准备迁移事项。</p>
 <h2 id="维护记录">维护记录</h2>
 <p><strong>2019/12/3 星期二 晴间多云 气温 7~19°C</strong></p>
 <ol>
@@ -349,23 +275,23 @@ PasswordAuthentication yes</p>
 </ol>
 <h2 id="todo">TODO</h2>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7942749"><label class="task-list-item-label" for="task-item-7942749"> 定制主题</label>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2244081"><label class="task-list-item-label" for="task-item-2244081"> 定制主题</label>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5924689"><label class="task-list-item-label" for="task-item-5924689"> 评论插件</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7898897"><label class="task-list-item-label" for="task-item-7898897"> 首页样式</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7915722"><label class="task-list-item-label" for="task-item-7915722"> 载入页</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8999910"><label class="task-list-item-label" for="task-item-8999910"> 导航页</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9066201"><label class="task-list-item-label" for="task-item-9066201"> 个人简历页</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8425591"><label class="task-list-item-label" for="task-item-8425591"> 项目展示页</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7055372"><label class="task-list-item-label" for="task-item-7055372">  “留言板” 页面</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-944535"><label class="task-list-item-label" for="task-item-944535"> 开设生活/技术分区</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2801951"><label class="task-list-item-label" for="task-item-2801951"> 为页面增加内置播放器</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1136000"><label class="task-list-item-label" for="task-item-1136000"> 文章置顶功能</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-703201"><label class="task-list-item-label" for="task-item-703201"> 评论插件</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8418593"><label class="task-list-item-label" for="task-item-8418593"> 首页样式</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-199339"><label class="task-list-item-label" for="task-item-199339"> 载入页</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5574362"><label class="task-list-item-label" for="task-item-5574362"> 导航页</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6154595"><label class="task-list-item-label" for="task-item-6154595"> 个人简历页</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2501722"><label class="task-list-item-label" for="task-item-2501722"> 项目展示页</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1437933"><label class="task-list-item-label" for="task-item-1437933">  “留言板” 页面</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8198383"><label class="task-list-item-label" for="task-item-8198383"> 开设生活/技术分区</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-293594"><label class="task-list-item-label" for="task-item-293594"> 为页面增加内置播放器</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5908342"><label class="task-list-item-label" for="task-item-5908342"> 文章置顶功能</label></li>
 </ul>
 </li>
 </ul>
 <p>        <em>( 上述计划可能会因博客平台迁移有所改变 )</em></p>
-<h2 id="计划目标">计划目标</h2>
+<h2 id="计划任务">计划任务</h2>
 <ul>
 <li>博客主页完善</li>
 <li>执行文章周更计划</li>
